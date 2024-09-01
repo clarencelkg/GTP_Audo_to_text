@@ -25,7 +25,7 @@ Used Whisper to Transcribe, GPT-4o to Summarize NDP key note taken from CNA.
    is stored in the transcript variable, which is then write and save to a file Keynote_transcript.txt locally.
 
 5. Display the required number of tokens and ensure the token limit is not exceeded.
-   For this example it take less than 1K tokens using GPT-4o model.
+   For this example it take less than 1K tokens using GPT-4o model for a 5 min audio.
 
 6. This code leverages the GPT-4o model to summarize the video transcripts. It extracts key points and
    presents them in a concise and energetic manner.
