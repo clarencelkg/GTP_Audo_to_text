@@ -14,7 +14,7 @@ Used Whisper to Transcribe, GPT-4o to Summarize NDP key note taken from CNA.
    api_key = "sk-"
    os.environ["OPENAI_API_KEY"] = api_key
 
-3. The code imports the openai module and uses it to transcribe an audio file.
+4. The code imports the openai module and uses it to transcribe an audio file.
    The audio file is opened in binary mode using the with statement and the open() function.
    The open() function takes two arguments: the path to the audio file and the mode in which
    to open it ("rb" for read binary mode).
@@ -24,10 +24,10 @@ Used Whisper to Transcribe, GPT-4o to Summarize NDP key note taken from CNA.
    which specifies that the transcription should be returned as plain text. The resulting transcription
    is stored in the transcript variable, which is then write and save to a file Keynote_transcript.txt locally.
 
-4. Display the required number of tokens and ensure the token limit is not exceeded.
+5. Display the required number of tokens and ensure the token limit is not exceeded.
    For this example it take less than 1K tokens using GPT-4o model.
 
-5. This code leverages the GPT-4o model to summarize the video transcripts. It extracts key points and
+6. This code leverages the GPT-4o model to summarize the video transcripts. It extracts key points and
    presents them in a concise and energetic manner.
    Initializes a call to the OpenAI API using the `client.chat.completions.create` method.
    It specifies the model to be used and provides a list of messages to set the context and request the summary.
